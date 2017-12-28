@@ -11,7 +11,7 @@ import retrofit2.http.Query;
  */
 public interface UmoriliApi {
 
-    String SOURCES = "aftenposten";
+    String SOURCES = "abc-news";
     String API_KEY = "b60d82179a3d46cca0776e64396e8947";
 
     @GET("top-headlines")
